@@ -61,19 +61,70 @@
 
 // console.log(numbers);
 
-let userCart = [
-  {userID: 1, productName: "Laptop", price: 70000},
-  {userID: 2, productName: "Headphone", price: 8000},
-  {userID: 3, productName: "Mouse", price: 2500},
-]
+// let userCart = [
+//   {userID: 1, productName: "Laptop", price: 70000},
+//   {userID: 2, productName: "Headphone", price: 8000},
+//   {userID: 3, productName: "Mouse", price: 2500},
+//   {userID: 4, productName: "Phone", price: 10000}
+// ]
 
-let lowToHigh = [...userCart].sort((a,b) => {
-  return a.price - b.price
-})
+// let lowToHigh = [...userCart].sort((a,b) => {
+//   return a.price - b.price
+// })
 
-let highToLow = [...userCart].sort((a,b) => {
-  return b.price - a.price
-})
+// let highToLow = [...userCart].sort((a,b) => {
+//   return b.price - a.price
+// })
 
-console.log(highToLow);
+// console.log(lowToHigh);
+
+// find Method
+
+// let animals = ["Monkey", "Cat", "Dog", "Elephant", "Lion"]
+
+// function len(string){
+//   return string.length === 3
+// }
+
+// let ans = animals.find((animal) => animal.length < 4)
+// console.log(ans);
+
+// let user = userCart.find((user) => user.userID%2 === 0)
+// console.log(user);
+
+// Every Method
+
+// let arr = [2]
+
+// let arr = [1,2,3,4,5,6,7,8,,9]
+
+// let ans = arr.every((number) => number%2 === 0)
+// console.log(ans);
+
+// Fill Method
+
+
+// let myArray = new Array(10).fill(10)
+// console.log(myArray);
+
+// let arr = [1,2,3,4,5,6,7,8,9]
+
+
+// fill item  start  end
+
+
+// arr.fill(0, 2,8)
+
+// console.log(arr);
+
+//Splice
+
+// let arr = [1,2,3,4,5,6,7,8,9]
+
+// // Start  Delete  Insert
+  
+// arr.splice(2, 3)
+
+// console.log(arr);
+
 
